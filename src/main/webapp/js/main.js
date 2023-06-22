@@ -128,14 +128,14 @@ $("button.login").click(function() {
 		alert("Please fill login form!");
 	} else {
 		var userLogin = {
-			email : email,
-			password : password
+			email: email,
+			password: password
 		};
 
 		$.post("login", userLogin, function(data) {
 			if (data == 'Good') {
-					window.location.assign('cabinet.jsp');
-				}
+				window.location.assign('cabinet.jsp');
+			};
 		});
 	}
 });
