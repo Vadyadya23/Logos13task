@@ -1,0 +1,4 @@
+2023-06-22 17:30:29 ERROR UserServiceImpl:24 - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-06-22 18:04:25 ERROR UserDaoImpl:149 - java.sql.SQLException: Illegal operation on empty result set.
