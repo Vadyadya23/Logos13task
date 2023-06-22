@@ -19,7 +19,6 @@ import ua.lviv.lgs.service.impl.UserServiceImpl;
 public class LoginServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-
 	private UserService userService = UserServiceImpl.getUserService();
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -31,7 +30,6 @@ public class LoginServlet extends HttpServlet {
 		User user = userService.getUserByEmail(email);
 
 		if (user != null && user.getPassword().equals(password)) {
-
 			UserLogin userLogin = new UserLogin();
 			userLogin.destinationUrl = "cabinet.jsp";
 			userLogin.userEmail = user.getEmail();
@@ -40,7 +38,6 @@ public class LoginServlet extends HttpServlet {
 			response.setCharacterEncoding("UTF-8");
 			response.getWriter().write(json);
 		}
-
 	}
 
 }

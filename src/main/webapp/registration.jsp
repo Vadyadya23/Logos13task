@@ -90,12 +90,12 @@
 						<span class="focus-input100" data-placeholder="Password"></span>
 					</div>
 
-					<!--<div class="wrap-input100 validate-input"
+					<div class="wrap-input100 validate-input"
 						data-validate="Enter password">
 						<span class="btn-show-pass"> <i class="zmdi zmdi-eye"></i></span>
 						<input class="input100 cpassword" type="password" name="cpassword">
 						<span class="focus-input100" data-placeholder="Confirm Password"></span>
-					</div>-->
+					</div>
 
 
 					<div class="container-login100-form-btn">
