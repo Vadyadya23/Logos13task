@@ -89,7 +89,7 @@
 
     <!-- Jumbotron -->
     <div id="intro" class="p-5 text-center bg-light">
-      <h1 class="mb-0 h4">Welcome, ${userEmail}</h1>
+      <h1 class="mb-0 h4">Welcome!</h1>
     </div>
     <!-- Jumbotron -->
   </header>

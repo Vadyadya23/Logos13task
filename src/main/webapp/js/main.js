@@ -128,22 +128,14 @@ $("button.login").click(function() {
 		alert("Please fill login form!");
 	} else {
 		var userLogin = {
-			email: email,
-			password: password
+			email : email,
+			password : password
 		};
 
 		$.post("login", userLogin, function(data) {
-			//	window.location.assign('cabinet.jsp');
-			window.location.assign('cabinet.jsp');
-			console.log(data);
-			//			var customUrl = '';
-			//			var urlContent = window.location.href.split('/');
-			//			for (var i = 0; i < urlContent.lenght - 1; i++) {
-			//				customUrl += urlContent[i] + '/'
-			//			}
-			//			customUrl += data.destinationUrl;
-			//			console.log(customUrl);
-			//
+			if (data == 'Good') {
+					window.location.assign('cabinet.jsp');
+				}
 		});
 	}
 });

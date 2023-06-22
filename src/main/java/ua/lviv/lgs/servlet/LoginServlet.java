@@ -30,13 +30,17 @@ public class LoginServlet extends HttpServlet {
 		User user = userService.getUserByEmail(email);
 
 		if (user != null && user.getPassword().equals(password)) {
-			UserLogin userLogin = new UserLogin();
-			userLogin.destinationUrl = "cabinet.jsp";
-			userLogin.userEmail = user.getEmail();
-			String json = new Gson().toJson(userLogin);
-			response.setContentType("application/json");
-			response.setCharacterEncoding("UTF-8");
-			response.getWriter().write(json);
+//			UserLogin userLogin = new UserLogin();
+//			userLogin.destinationUrl = "cabinet.jsp";
+//			userLogin.userEmail = user.getEmail();
+//			String json = new Gson().toJson(userLogin);
+//			response.setContentType("application/json");
+//			response.setCharacterEncoding("UTF-8");
+//			response.getWriter().write(json);
+			
+			response.setContentType("text/plain");
+			response.setCharacterEncoding("UtF-8");
+			response.getWriter().write("Good");
 		}
 	}
 
