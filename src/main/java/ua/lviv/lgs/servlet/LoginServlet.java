@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 //			response.getWriter().write(json);
 			
 			response.setContentType("text/plain");
-			response.setCharacterEncoding("UtF-8");
+			response.setCharacterEncoding("UTF-8");
 			response.getWriter().write("Good");
 		}
 	}

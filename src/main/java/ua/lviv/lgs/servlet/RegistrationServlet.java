@@ -30,7 +30,7 @@ public class RegistrationServlet extends HttpServlet {
 		}
 
 		response.setContentType("text/plain");
-		response.setCharacterEncoding("UtF-8");
+		response.setCharacterEncoding("UTF-8");
 		response.getWriter().write("Success");
 //		response.getWriter().write("Click OK to go to the login page");
 	}

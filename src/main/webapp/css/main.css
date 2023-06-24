@@ -556,3 +556,22 @@ div.alert-success {
 	width: 100%;
 	margin: 0 auto;
 }
+
+
+.welcome {
+	margin-top: 100px
+}
+
+.ccc1ccc {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 100px;
+	margin-left: 596px!important;
+	position: relative;
+}
+
+btn.createProduct{
+	margin-left: 5px!important;
+	margin-right: 200px!important;
+}
